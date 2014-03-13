@@ -33,9 +33,15 @@ See [Google's Ubuntu font page](http://www.google.com/fonts#UsePlace:use/Collect
 ## Contributing
 We strongly encourage contributing changes back to the project, see the usage policy below.
 
-Generally, edit the Illustrator (.ai) files.  Note that they use linking, so changes to speech-logo-bird.ai will propogate automatically to all of the Illustrator containing the bird image.  __Note that I tried doing this with SVG to keep everything editable in free-software viewers, but neither Illustrator nor Inkscape can handle linking SVG files.__
+Generally, edit the Illustrator (.ai) files.  Note that they use linking, so changes to speech-logo-bird.ai will propogate automatically to all of the Illustrator containing the bird image. 
 
-Before submitting a pull requrest, please convert the Illustrator files to SVG files, open up batch-convert-svg.jsx in Illustrator using File -> Scripts -> Other Script.
+You can edit SVG files and you pull requests will be accepted, however, it's best to edit the Illustrator files directly if possible.  __Note that I tried doing this with SVG to keep everything editable in free-software viewers, but neither Illustrator nor Inkscape can handle linking SVG files.__
+
+#### Converting
+
+Before submitting a pull requrest, it would be nice if you could convert the Illustrator files to SVG files, open up batch-convert-svg.jsx in Illustrator using File -> Scripts -> Other Script.
+
+The rest is optional.
 
 Favicons are generated using [RealFaviconGenerator.net](http://realfavicongenerator.net).
 
